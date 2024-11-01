@@ -1,0 +1,51 @@
+#maindiv{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  left: 40%;
+  top: 40px;
+}
+#blue,#red,#green,#pink,#gray,#yellow,#black{
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  border: 3px solid white;
+  /* background-color: blue; */
+}
+#yellow{
+  color: black  ;
+}
+#blue{
+  background-color: blue;
+}
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
+#pink{
+  background-color: rgb(214, 48, 76);
+}
+#gray{
+  background-color: gray;
+}
+#yellow{
+  background-color: yellow;
+}
+#black{
+  background-color: black;
+}
+#white{
+  font-family: monospace;
+  font-weight: bold;
+  border: 3px solid white;
+}
+@media (min-width: 200px) and (max-width: 380px) {
+  #maindiv{
+    position: relative;
+    left: 70px;
+  }
+}
